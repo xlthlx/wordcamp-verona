@@ -1,0 +1,17 @@
+{
+  "name": "wordcamp-verona",
+  "version": "1.0.0",
+  "description": "WordCamp Verona 2023 Theme",
+  "author": "xlthlx",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlthlx/wordcamp-verona"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^8.12.0"
+  }
+}

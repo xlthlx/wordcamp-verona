@@ -1,0 +1,22 @@
+{
+  "core":  null,
+  "themes": [ 
+  	"https://downloads.wordpress.org/theme/twentytwentyfour.zip",
+    "https://downloads.wordpress.org/theme/blockbase.zip"
+  ],
+  "plugins": [
+    "https://downloads.wordpress.org/plugin/create-block-theme.zip",
+    "https://downloads.wordpress.org/plugin/query-monitor.zip"
+  ],
+  "mappings": {
+    "wp-content": "./wp-content"
+  },
+  "port": 1080,
+  "testsPort": 1081,
+  "config": {
+    "WP_DEBUG": true,
+    "WP_DEBUG_LOG": true,
+    "WP_DEBUG_DISPLAY": false,
+    "SCRIPT_DEBUG": true
+  }
+}

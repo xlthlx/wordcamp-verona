@@ -1,0 +1,73 @@
+{
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#9FD3E8",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#FBE6AA",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Foreground",
+					"slug": "foreground"
+				},
+				{
+					"color": "#1F2527",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
+					"color": "#364043",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Punch Label",
+					"slug": "punch-label",
+					"fontFace": [
+						{
+							"fontFamily": "Punch Label",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [
+								"file:./assets/fonts/punch-label_normal_400.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Poppins",
+					"slug": "poppins",
+					"fontFace": [
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [
+								"file:./assets/fonts/poppins_normal_400.woff2"
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--poppins)",
+			"fontSize": "var(--wp--custom--font-sizes--normal)"
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.3/theme.json"
+}

@@ -1,0 +1,46 @@
+# Ignore all files starting with .
+.*
+._*
+
+# Do NOT ignore .gitignore
+!.gitignore
+
+# Do NOT ignore .circleci
+!.circleci
+
+# Do NOT ignore .wp-env.json
+!.wp-env.json
+
+# Ignore all files that start with ~
+~*
+
+# Ignore packaged files
+*.7z
+*.csv
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.sql
+*.tar.gz
+
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore lock files
+*.lock
+
+# Build Tools
+.idea
+
+# Project specific
+/wp-content/
+!wp-content/themes/wordcamp-verona/
